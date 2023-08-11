@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorDivider"
     android:orientation="vertical"
     android:weightSum="10"
-    android:background="@color/colorDivider"
-    tools:context=".MyPage">
+    tools:context=".ProfileFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,7 +52,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-
             android:columnCount="3"
             android:orientation="horizontal"
             android:padding="10dp"
@@ -105,7 +104,7 @@
             android:layout_marginEnd="15dp"
             android:orientation="horizontal"
             android:padding="10dp"
-            tools:context=".MyPage">
+            tools:context=".ProfileFragment">
 
             <android.widget.Button
                 android:id="@+id/alarm_btn"
@@ -148,7 +147,7 @@
 
             android:orientation="horizontal"
             android:padding="10dp"
-            tools:context=".MyPage">
+            tools:context=".ProfileFragment">
 
             <android.widget.Button
                 android:id="@+id/viewHistory_btn"
