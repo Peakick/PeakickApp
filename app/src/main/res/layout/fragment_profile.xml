@@ -8,181 +8,192 @@
     android:weightSum="10"
     tools:context=".MyPage">
 
-    <FrameLayout
-        android:id="@+id/top_layout"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <ImageButton
-            android:id="@+id/backToHome_btn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_background"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Peakick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Peakick"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/MyPage"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:text="MyPage"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <GridLayout
+            android:id="@+id/account_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/ic_baseline_arrow_back_ios_24"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:layout_marginEnd="15dp"
+            android:layout_weight="3"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:rowCount="2">
 
-        <TextView
-            android:id="@+id/MyPage"
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginTop="80dp"
+                android:gravity="center"
+                android:text="_ _ _님"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Peakick@naver.com"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/profile_img_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowSpan="2"
+                android:layout_column="2"
+                android:layout_margin="20dp"
+                android:layout_marginTop="60dp"
+                android:background="#FFC0CB"
+                android:src="@drawable/profile_btn_foreground"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </GridLayout>
+
+        <LinearLayout
+            android:id="@+id/sixButton1_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="MyPage"
-            android:textColor="#000000"
-            android:textSize="30sp" />
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            tools:context=".MyPage">
 
-    </FrameLayout>
+            <android.widget.Button
+                android:id="@+id/alarm_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sixbutton_square"
+                android:text="알림"
+                android:textSize="20sp" />
 
-    <GridLayout
-        android:id="@+id/account_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:columnCount="3"
-        android:rowCount="2"
-        android:layout_weight="3">
+            <android.widget.Button
+                android:id="@+id/notification_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sixbutton_blue"
+                android:text="공지"
+                android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/nickname"
-            android:layout_column="0"
-            android:layout_row="0"
-            android:layout_columnSpan="2"
-            android:layout_gravity="fill_horizontal"
-            android:layout_marginTop="80dp"
-            android:gravity="center"
-            android:textSize="30sp"
-            android:text="_ _ _님"
-            />
+            <android.widget.Button
+                android:id="@+id/FAQ_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sixbutton_green"
+                android:text="FAQ"
+                android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/email"
-            android:layout_column="0"
-            android:layout_row="1"
-            android:layout_columnSpan="2"
-            android:layout_gravity="fill_horizontal"
-            android:gravity="center"
-            android:layout_marginTop="8dp"
-            android:textSize="25sp"
-            android:text="Peakick@naver.com"
-            />
+        </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/profile_img_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_rowSpan="2"
-            android:layout_column="2"
-            android:layout_marginTop="60dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/profile_btn_foreground"
-            android:background="#FFC0CB"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-    </GridLayout>
-
-    <LinearLayout
-        android:id="@+id/sixButton1_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2.5"
-        android:orientation="horizontal"
-        android:layout_marginStart="10dp"
-        tools:context=".MyPage">
-
-        <android.widget.Button
-            android:id="@+id/alarm_btn"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/sixbutton_square"
-            android:textSize="20sp"
-            android:text="알림" />
-
-        <android.widget.Button
-            android:id="@+id/notification_btn"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/sixbutton_blue"
-            android:textSize="20sp"
-            android:text="공지" />
-
-        <android.widget.Button
-            android:id="@+id/FAQ_btn"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/sixbutton_green"
-            android:textSize="20sp"
-            android:text="FAQ" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/sixButton2_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2.5"
-        android:layout_marginStart="10dp"
-        android:orientation="horizontal"
-        tools:context=".MyPage">
-
-        <android.widget.Button
-            android:id="@+id/viewHistory_btn"
-            android:layout_width="110dp"
-
-            android:layout_height="110dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/sixbutton_green"
-            android:textSize="20sp"
-            android:text="시청 기록" />
-
-        <android.widget.Button
-            android:id="@+id/wishList_btn"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/sixbutton_square"
-            android:textSize="20sp"
-            android:text="찜 목록" />
-
-        <android.widget.Button
-            android:id="@+id/more_btn"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_margin="10dp"
-            android:background="@drawable/sixbutton_blue"
-            android:textSize="20sp"
-            android:text="설정" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/bottom_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/logout"
+        <LinearLayout
+            android:id="@+id/sixButton2_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_gravity="fill_horizontal"
-            android:layout_margin="50dp"
-            android:textSize="15sp"
-            android:text="로그아웃"
-            android:background="@color/white"
-            android:textColor="#4F4F4F"
-            android:outlineProvider="none"
-            />
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            tools:context=".MyPage">
 
+            <android.widget.Button
+                android:id="@+id/viewHistory_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sixbutton_green"
+                android:text="시청 기록"
+                android:textSize="20sp" />
+
+            <android.widget.Button
+                android:id="@+id/wishList_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sixbutton_square"
+                android:text="찜 목록"
+                android:textSize="20sp" />
+
+            <android.widget.Button
+                android:id="@+id/more_btn"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/sixbutton_blue"
+                android:text="설정"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_margin="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:outlineProvider="none"
+                android:text="로그아웃"
+                android:textColor="#4F4F4F"
+                android:textSize="15sp" />
+
+        </LinearLayout>
     </LinearLayout>
-
-
 </LinearLayout>
