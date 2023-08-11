@@ -47,14 +47,14 @@
                     android:background="@drawable/white_rectangle_background">
 
 
-                    <SearchView
+                    <androidx.appcompat.widget.SearchView
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:background="@null">
 
 
-                    </SearchView>
+                    </androidx.appcompat.widget.SearchView>
                 </LinearLayout>
             </LinearLayout>
 
