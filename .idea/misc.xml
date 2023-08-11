@@ -3,19 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/header_background.xml" value="0.237" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.367" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.367" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.367" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/white_rectangle_background.xml" value="0.237" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_chatting.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_profile.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/PeakickApp/app/src/main/res/menu/top_menu.xml" value="0.2601851851851852" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/back_btn.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.182" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.113" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.225" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.168" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_chat_bubble_outline_24.xml" value="0.168" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.168" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.129" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/profile_btn_foreground.xml" value="0.2655" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/profile_img.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/profile_img2_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/profile_img_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/sixbutton_blue.xml" value="0.1655" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/sixbutton_green.xml" value="0.1105" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/sixbutton_square.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/activity_my_page.xml" value="0.33" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_chatting.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_home.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/profile_img2.xml" value="0.113" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/profile_img2_round.xml" value="0.113" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/profile_img_round.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
 </project>
