@@ -19,9 +19,11 @@
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/sixbutton_blue.xml" value="0.1655" />
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/sixbutton_green.xml" value="0.1105" />
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/drawable/sixbutton_square.xml" value="0.1" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/activity_main.xml" value="0.18432971014492755" />
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/activity_my_page.xml" value="0.33" />
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_chatting.xml" value="0.33177083333333335" />
-        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_home.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_home.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/layout/fragment_profile.xml" value="0.33177083333333335" />
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
         <entry key="..\:/Users/jhhsj/AndroidStudioProjects/PeakickApp/app/src/main/res/mipmap-anydpi-v26/profile_img2.xml" value="0.113" />
@@ -30,7 +32,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
