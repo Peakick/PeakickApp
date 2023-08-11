@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
+    android:background="@color/colorDivider"
     tools:context=".MyPage">
 
     <LinearLayout
@@ -27,7 +28,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:text="Peakick"
-                android:textSize="26dp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="35sp" />
 
             <TextView
                 android:id="@+id/MyPage"
@@ -38,8 +40,9 @@
                 android:layout_marginEnd="15dp"
                 android:gravity="center"
                 android:text="MyPage"
+                android:fontFamily="@font/hssaemaul_regular"
                 android:textColor="#000000"
-                android:textSize="20sp" />
+                android:textSize="35sp" />
 
         </LinearLayout>
 
@@ -49,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:layout_weight="3"
+
             android:columnCount="3"
             android:orientation="horizontal"
             android:padding="10dp"
@@ -64,6 +67,7 @@
                 android:layout_marginTop="80dp"
                 android:gravity="center"
                 android:text="_ _ _님"
+                android:fontFamily="@font/hssaemaul_regular"
                 android:textSize="30sp" />
 
             <TextView
@@ -75,6 +79,7 @@
                 android:layout_marginTop="8dp"
                 android:gravity="center"
                 android:text="Peakick@naver.com"
+                android:fontFamily="@font/hssaemaul_regular"
                 android:textSize="25sp" />
 
             <ImageButton
@@ -98,7 +103,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:layout_weight="2.5"
             android:orientation="horizontal"
             android:padding="10dp"
             tools:context=".MyPage">
@@ -110,7 +114,8 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/sixbutton_square"
                 android:text="알림"
-                android:textSize="20sp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="30sp" />
 
             <android.widget.Button
                 android:id="@+id/notification_btn"
@@ -119,7 +124,8 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/sixbutton_blue"
                 android:text="공지"
-                android:textSize="20sp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="30sp" />
 
             <android.widget.Button
                 android:id="@+id/FAQ_btn"
@@ -128,7 +134,8 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/sixbutton_green"
                 android:text="FAQ"
-                android:textSize="20sp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="30sp"/>
 
         </LinearLayout>
 
@@ -138,7 +145,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:layout_weight="2.5"
+
             android:orientation="horizontal"
             android:padding="10dp"
             tools:context=".MyPage">
@@ -150,7 +157,8 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/sixbutton_green"
                 android:text="시청 기록"
-                android:textSize="20sp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="30sp" />
 
             <android.widget.Button
                 android:id="@+id/wishList_btn"
@@ -159,7 +167,8 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/sixbutton_square"
                 android:text="찜 목록"
-                android:textSize="20sp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="30sp" />
 
             <android.widget.Button
                 android:id="@+id/more_btn"
@@ -168,7 +177,8 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/sixbutton_blue"
                 android:text="설정"
-                android:textSize="20sp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="30sp" />
 
         </LinearLayout>
 
@@ -184,15 +194,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill_horizontal"
-                android:layout_margin="40dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
-                android:background="@color/white"
+                android:background="@color/colorDivider"
                 android:gravity="center"
                 android:outlineProvider="none"
                 android:text="로그아웃"
                 android:textColor="#4F4F4F"
-                android:textSize="15sp" />
+                android:fontFamily="@font/hssaemaul_regular"
+                android:textSize="20sp" />
 
         </LinearLayout>
     </LinearLayout>
